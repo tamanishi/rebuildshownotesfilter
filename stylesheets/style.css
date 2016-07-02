@@ -1,0 +1,27 @@
+.container {
+  max-width: 100%;
+}
+
+.dl-horizontal dt {
+	text-align: left;
+	white-space: normal;
+	width: 40%;
+}
+
+.dl-horizontal dd {
+	margin-left: 40%;
+}
+
+.dl-horizontal p {
+  font-weight: lighter;
+  font-size: small;
+  margin-bottom: 0px;
+}
+
+.alt-table-responsive {
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: auto;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	-webkit-overflow-scrolling: touch;
+}
