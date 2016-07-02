@@ -5,5 +5,3 @@ cd ./public
 git add -A
 git commit -m "update shownotes"
 git push origin gh-pages
-
-
