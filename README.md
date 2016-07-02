@@ -1,11 +1,11 @@
-# rebuildshownotesfilter
+# Rebuild Show Notes Filter
 
 [Rebuild](http://rebuild.fm)のShow Notesをサッと検索したいものです。
 
 ## Description
-[Rebuild](http://rebuild.fm)を聴いていると、「あ、これ以前のエピソードでも出てきたな。いつ(誰)だっけ。」ということがままありますね。
-そんな時に、気になったキーワードで[Rebuild](http://rebuild.fm)のShow Notesをエピソードを横断して検索できたいなというものです。
-出演されている方々も時々そんな状況になることがあるっぽいですよね。
+[Rebuild](http://rebuild.fm)を聴いていると、「あ、これ以前のエピソードでも出てきたな。どのエピソードだったっけ。」ということがままありますね。  
+そんな時に、気になったキーワードで[Rebuild](http://rebuild.fm)のShow Notesをエピソードを横断して検索できたいなというものです。  
+出演されている方々も時々そんな状況になることがあるっぽいですよね。  
 
 ## Demo
 ![Demo](./demo.gif)
