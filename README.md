@@ -1,4 +1,4 @@
-# Rebuild Show Notes Filter
+# [Rebuild Show Notes Filter](https://tamanishi.net/rebuildshownotesfilter/)
 
 [Rebuild](http://rebuild.fm)のShow Notesをサッと検索したいものです。
 
