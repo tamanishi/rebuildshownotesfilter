@@ -11,7 +11,7 @@
 ![Demo](./demo.gif)
 
 ## Todo
-* 初期表示までちょっと待つのを何とかしたい。
+* 初期表示までちょっとかかるのを何とかしたい。
 * 検索ワードの絞り込みを緩めていく時にウッと待たされるのを何とかしたい。
 * 手動で ./episodes.json を[更新してpush](https://github.com/tamanishi/rebuildshownotesfilter/blob/master/episodes.sh)するのを何とかしたい。
 
