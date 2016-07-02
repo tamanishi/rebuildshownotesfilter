@@ -2,7 +2,7 @@ var app = angular.module('App', []);
 
 app.service('dataService', ['$http', function($http) {
 
-  var url = 'https://tamanishi.net/rebuildshownotesfilter/episodes.json'
+  var url = 'episodes.json'
 
   this.getEpisodes = function() {
     return $http.get(url);
