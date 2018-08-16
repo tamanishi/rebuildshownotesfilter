@@ -1,11 +1,17 @@
 # [Rebuild Show Notes Filter](https://tamanishi.net/rebuildshownotesfilter/)
 
-[Rebuild](http://rebuild.fm)のShow Notesをサッと検索したいものです。  
+## [Vue.js](https://vuejs.org)で作り直して、公開先を https://tamanishi.net/rebuildshownotesfilter2 へ移しました。
+## 新しいリポジトリは https://github.com/tamanishi/rebuildshownotesfilter2 です。
+## https://tamanishi.net/rebuildshownotesfilter へのアクセスは https://tamanishi.net/rebuildshownotesfilter2 へリダイレクトされます。
+
+----
+
+[Rebuild](http://rebuild.fm)のShow Notesをサッと検索したいものです。
 
 ## Description
-[Rebuild](http://rebuild.fm)を聴いていると、「あ、これ以前のエピソードでも出てきたな。どのエピソードだったっけ。」ということがままありますね。  
-そんな時に、気になったキーワードで今までのエピソードのShow Notesを横断して検索できたらいいなというものです。  
-出演されている方々も時々そんな状況になることがあるっぽいですよね。  
+[Rebuild](http://rebuild.fm)を聴いていると、「あ、これ以前のエピソードでも出てきたな。どのエピソードだったっけ。」ということがままありますね。
+そんな時に、気になったキーワードで今までのエピソードのShow Notesを横断して検索できたらいいなというものです。
+出演されている方々も時々そんな状況になることがあるっぽいですよね。
 
 今のところ、Github pagesにホストしています。
 
@@ -24,5 +30,5 @@ MIT
 
 ## Author
 
-[tamansihi](https://github.com/tamansihi)
+[Masayuki Sunahara](https://github.com/tamansihi)
 
