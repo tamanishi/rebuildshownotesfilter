@@ -2,51 +2,6 @@
 <html lang="ja" ng-app="App">
 <head>
   <meta charset="UTF-8">
-  <title>Rebuild Show Notes Filter</title>
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="javascripts/main.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-<!--
-  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
--->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta http-equiv="refresh" content="0; URL='http://tamanishi.net/rebuildshownotesfilter2/'" />
 </head>
-
-<body>
-  <div class="container" ng-controller="mainCtrl">
-    <h1>Rebuild Show Notes Filter</h1>
-    <div class="row">
-      <div class="col-xs-3"><input type="text" class="form-control" placeholder="query" ng-model="query.title"></div>
-    </div>
-    <p>
-    <dl class="dl-horizontal">
-      <dt ng-repeat-start="episode in ::episodes" ng-show="filtered.length > 0">
-        <a href="{{::episode.mediaUrl}}" target=_blank>{{::episode.title}}</a>
-        <p>{{::episode.publicationDate | date:'yyyy-MM-dd'}}</p>
-      </dt>
-      <dd ng-repeat-end>
-        <ul ng-show="filtered.length > 0">
-          <li ng-repeat="shownote in filtered = (episode.shownotes | filter: query)">
-            <a href="{{::shownote.url}}" target=_blank>{{::shownote.title}}</a>
-          </li>
-        </ul>
-      </dd>
-    </dl>
-  </div>
-</body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-13063229-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </html>
